@@ -1,0 +1,64 @@
+reviews were ok. on the short side but ok. 10/10
+
+NOTES ON YOUR PLOT 
+===================
+
+the plot says color blind compliant, but really the color blind compliance is only important when multiple colors are present. 
+
+spaces are missing between words and parenthesis in both label and title
+
+the 3D is acrually justified but the position of the points in the 3d space is hard to read. i think the transparency is attempting to make it more clear but it does not increase readability and the lack of legend makes it confusing to understand its meaning
+
+axis ticks are too small
+
+
+
+
+
+
+
+
+NOTES ON THE PLOTS YOU REVIEWED
+===========================================
+
+
+MFilippelli
+============
+
+
+the station id is a categorical value, not a continuous one, so it should not be plotted as a position (and the idea of doing a regression on it is odd and really meaningless)
+
+the regression lines are very thick, which does not add to readability. 
+
+in color-blind simulations the colors become undistinguishable, particularly the green
+
+
+
+============
+
+
+the time series are of very different order of magnitude. thus all of them are unvisible and cluster at the bottom . log y should be used.
+
+why is the plot resolution so low?
+
+there are too many time series on the plot. even with log space the result would likely be confusing. 
+
+for the y ticks a compressed notation for the large numbers should be chosen to enhance readability
+
+good legend and good size for the labels.
+
+consider steps instead of lines joining points for time series
+
+
+
+
+
+JingqinGao
+============
+  
+the choice of background color for the plot is odd: it reduces the contrast and the readability of the plot. 
+
+there are too many datapoints compromizing readability. consider a contour plot. 
+the color is not explained. 
+
+the legend on white background is distracting from the rest of the plot given the choice for background color
